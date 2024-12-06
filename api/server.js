@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to your Express server" });
+  res.json({ message: "changed api messaged" });
 });
 
 const PORT = process.env.PORT || 3005;
